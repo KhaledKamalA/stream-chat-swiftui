@@ -103,7 +103,7 @@ public struct ChatChannelInfoView<Factory: ViewFactory>: View, KeyboardReadable 
                         }
                     }
                 }
-            }
+            }.padding(.top)
             .overlay(
                 popupShown ?
                     Color.black.opacity(0.3).edgesIgnoringSafeArea(.all) : nil
